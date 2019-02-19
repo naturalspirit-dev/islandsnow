@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="ui borderless topmenu menu">
+  <div class="ui container">
+    <a class="fitted item"><i class="facebook f icon"></i></a>
+    <a class="fitted item"><i class="twitter f icon"></i></a>
+    <a class="fitted item"><i class="pinterest f icon"></i></a>
+    <a class="fitted item"><i class="instagram f icon"></i></a>
+    <a class="fitted right item"><i class="home icon"></i></a>
+    <a class="fitted item"><i class="search icon"></i></a>
+    <a class="fitted item"><i class="user icon"></i></a>
+    <div class="ui dropdown fitted item">
+      <div class="text"> MY CART <i class="search icon"></i> 0</div>
+      <i class="dropdown icon"></i>
+      <div class="menu">
+        <div class="item">My cart is currently empty</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  $('.ui.dropdown')
+      .dropdown()
+  ;
+</script>
+
+
+</body>
+</html>
